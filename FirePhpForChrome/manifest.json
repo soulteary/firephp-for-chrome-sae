@@ -1,0 +1,26 @@
+{
+  "name": "FirePhp For Chrome(SAE)",
+  "description": "FirePHP extension for Google Chrome(@soulteary modiy)",
+  "version": "1.2",
+  "background": {
+    "persistent": false,
+    "page": "background.html"
+  },
+  "permissions": ["storage", "tabs", "webNavigation", "http://*/*" , "https://*/*" 
+  ],
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+  "page_action": {
+    "default_icon": "icon/24.png",
+    "default_title": "SAE Team!",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "128": "icon/128.png",
+    "24": "icon/24.png",
+    "32": "icon/32.png",
+    "48": "icon/48.png",
+    "64": "icon/64.png"
+  },
+  "manifest_version": 2,
+  "web_accessible_resources": ["icon/48.png"]
+}
